@@ -1,0 +1,660 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+body{
+    margin: 0.1px;
+    width: 390px;
+    /* height: 844px; */
+    font-family: "Pretendard Variable";
+}
+img{
+    margin: auto;
+    display: block;
+}
+.stp{
+    width: 100%;
+    background-image: url("../img/시작페이지.jpg");
+    background-size: 390px;
+    height: 100%;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff61;
+}
+.stcon{
+    padding: 240px 50px;
+}
+.stbtn>button{
+    margin-top: 45px;
+    padding: 9px 95px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 2px solid;
+    color: #D785CD;
+    background-color: #ffffff22;
+    backdrop-filter: blur(3px);
+    margin-bottom: 5px;
+}
+.stbtn>button:hover{
+    color: #EC74A3;
+    background-color: #ffffff44;
+    backdrop-filter: blur(7px);
+}
+.nonlogin{
+    text-align: center;
+}
+a{
+    text-align: center;
+    font-size: 12px;
+    color: #616161;
+}
+.logincon{
+    padding: 134px 25px;
+    box-sizing: border-box;
+}
+.logotre{
+    padding: 41px 45px;
+    box-sizing: border-box;
+}
+form>input,button{
+    width: 100%;
+    font-size: 24px;
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.loginbox>button{
+    border-radius: 8px;
+    color: #ffffff;
+    border: 2px solid #F1979E;
+    background-color: #F1979E;
+    width: 100%;
+    font-size: 24px;
+    margin: 5px 0px;
+    padding: 10px 117px;
+    box-sizing: border-box;
+}
+form>button:hover{
+    border: 2px solid #D785CD;
+    background-color: #D785CD;
+}
+.cbox{
+    margin: 0;
+
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+.ezlogin{
+    width: 100%;
+    margin-top: 104px;
+}
+.ezlogin>p{
+    text-align: center;
+    margin: 3px;
+}
+.ezcon{
+    border-top: 1px solid #383838;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.ezb{
+    float: left;
+    width: 46px;
+    height: 46px;
+    margin: 5px 10px;
+    border-radius: 23px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.clbt{
+    clear: both;
+}
+.kakao{
+    background-image: url("../img/kakao.png");
+}
+.naver{
+    background-image: url("../img/naver.png");
+}
+.google{
+    background-image: url("../img/google.png");
+}
+.faceb{
+    background-image: url("../img/facebook.png");
+}
+.twitt{
+    background-image: url("../img/twit.png");
+}
+.heads img{
+    display: flex;
+}
+.hhd{
+    height: 48px;
+}
+.mlogo{
+    height: 100%;
+}
+.mlogo>img{
+    height: 48px;
+    padding: 0 32px 0 40px;
+}
+.hhd{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 64px 27px 30px 27px;
+}
+.hhd>div{
+    float: left;
+}
+.usermenu>img{
+    height: 40px;
+}
+.tbtn>img{
+    float: left;
+}
+
+
+.catenev{
+    max-width:390px;
+    margin:0 auto;
+}
+.scnev{
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 0;
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+}
+.scnev::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+.nevcon{
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 7px 11px;
+}
+.nevcon + .nevcon {
+    margin-left: -4px;
+}
+.add{
+    box-shadow: 0px 5px 7px 0px #8c8c8c;
+}
+.adds{
+    padding: 0;
+    margin: 0;
+}
+.adds img{
+    box-shadow: 0px 5px 7px 0px #8c8c8c;
+}
+.s_add{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.s_add + .s_add{
+    margin-left: 4px;
+}
+.s_add img{
+    width: 190px;
+}
+.lbanner img{
+    width: 390px;
+}
+
+/* 캐러셀 전체 구조  */
+.txobox {
+    width: 318px; /* 이미지 크기 설정  */
+    position: relative;
+    overflow: hidden;
+    margin: 8px auto;
+    user-select: none;
+    height: 193px;
+}
+.txtbox{
+    width: 318px;
+    position: relative;
+    overflow: hidden;
+    margin: 8px auto;
+    user-select: none;
+    height: 296px;
+}
+.catename{
+    border-bottom: 1px solid #383838;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 56px;
+}
+.catename h4{
+    margin: 20px 0 4px 0;
+}
+.wbnm{
+    width: 113px;
+}
+
+.pages {
+    display: flex;
+    transition: transform 0.5s;
+}
+.fpages {
+    display: flex;
+    transition: transform 0.5s;
+}
+.twoitemspg {
+    flex: 0 0 318px; /* 이미지 크기 설정  */
+    position: relative;
+    text-align: center;
+}
+
+.twoitemspg img {
+    display: inline-block;
+    width: 124px;
+    object-fit: cover;
+}
+
+.fouritemspg {
+    flex: 0 0 318px; /* 이미지 크기 설정  */
+    position: relative;
+    text-align: center;
+}
+
+.fouritemspg img {
+    display: inline-block;
+    width: 124px;
+    object-fit: cover;
+}
+
+/* 캐러셀 사이드 버튼 */
+.boxsidebutton {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.fboxsidebutton {
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carousel_button {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.box_prev {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+.fbox_prev {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.box_next {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+.fbox_next {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+/* 캐러셀 중앙 버튼 */
+.boxmidbtn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.fboxmidbtn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.boxcircle {
+    width: 10px;
+    height: 10px;
+    background-color: #F1979E;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.boxcircle.active {
+    background-color: #B6444D;
+}
+
+.fboxcircle {
+    width: 10px;
+    height: 10px;
+    background-color: #F1979E;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fboxcircle.active {
+    background-color: #B6444D;
+}
+
+.foots{
+    position: relative;
+    margin-top: 15px;
+    background-color: #D785CD;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: white;
+}
+.tbx h3{
+    font-size: 12px;
+}
+.tbx p{
+    font-size: 8px;
+}
+.copy{
+    font-size: 8px;
+    color: #D9D9D9;
+}
+.contact{
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+}
+.contact img{
+    display: inline;
+}
+
+.bottomnav{
+    display: flex;
+    background-color: white;
+    color: #F1979E;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    height: 50px;
+    padding: 8px 50px;
+    position: sticky;
+    bottom: 0;
+    box-shadow: 0 -3px 8px 2px #31313177;
+}
+
+.buybottomnav{
+    display: flex;
+    padding: 5px 19px;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    height: 59px;
+    position: sticky;
+    bottom: 0;
+    color: #767676;
+    box-shadow: 0 -3px 8px 2px #31313177;
+}
+
+.bnavbtn{
+    margin: auto;
+    font-size: 50px;
+    display: inline;
+}
+.material-symbols-outlined {
+    font-size: 50px !important;
+}
+.catefoot{
+    margin-top: 0px;
+}
+
+.mainimg .material-symbols-outlined {
+    font-size: 40px !important;
+}
+
+.catname h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.pginfo{
+    text-align: right;
+    margin: 0px 15px;
+}
+.pginfo>div{
+    display: inline;
+    font-size: 12px;
+}
+
+.items{
+    margin: 5px 15px;
+}
+.item{
+    display: inline-block;
+}
+.item + .ndt{
+    margin-left: 10px;
+}
+.item p{
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    font-weight: 600;
+}
+.item h2{
+    font-size: 19px;
+    margin: 0;
+}
+.item h6{
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+    text-align: right;
+}
+.bnavbtn + .bnavbtn{
+    margin-left: 50px;
+}
+
+.mainimg{
+    background-image: url("../img/mainss.jpg");
+    height: 407px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+.checker{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    color: #767676;
+}
+.actives{
+    color: #F1979E;
+}
+
+.info{
+    padding: 14px 30px 17px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+}
+
+.info p{
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+.info h2{
+    font-size: 22px;
+    margin: 0 0 3px -3px;
+}
+.info .material-symbols-outlined{
+    font-size: 15px !important;
+    letter-spacing:-8px !important;
+    font-weight: 600;
+}
+.point{
+    font-size: 13px;
+}
+.info h6{
+    font-size: 24px;
+    margin: 0;
+}
+.starp{
+    margin: 0 0 29px -4px;
+    display: flex;
+}
+.star + .point{
+    margin-left: 10px;
+}
+.point .material-symbols-outlined{
+    font-size: 20px !important;
+}
+.token{
+    font-size: 13px;
+    position: absolute;
+    bottom: 17px;
+    right: 30px;
+    margin: 8px 0 !important;
+}
+.cupon{
+    border: 1px solid #383838;
+    box-sizing: border-box;
+    height: 162px;
+    padding: 14px 18px;
+}
+.cupon h3{
+    margin: 0;
+}
+.delivery{
+    border: 1px solid #383838;
+    box-sizing: border-box;
+    height: 110px;
+    padding: 14px 18px;
+    margin-top: -1px;
+}
+.del h3{
+    margin: 0;
+}
+.infofo{
+    height: 1000px;
+    background-color: #D9D9D9;
+}
+.buybottomnav div{
+    display: inline;
+    margin-right: 13px;
+}
+.buybottomnav button{
+    width: 246px;
+    background-color: #fff;
+    border: 1px solid #383838;
+    border-radius: 4px;
+}
+
+.buybottomnav button+button{
+    margin-left: 13px;
+}
+
+.review{
+    padding: 14px 12px;
+    box-sizing: border-box;
+    border-top: 1.5px solid #383838;
+    border-bottom: 1px solid #383838;
+}
+.points{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #383838;
+}
+.points .material-symbols-outlined{
+    letter-spacing: -16px !important;
+}
+.points h1{
+    margin: 0;
+}
+.review .point{
+    padding-left: 19px;
+    font-size: 20px;
+}
+.protbox .point{
+    font-size: 13px;
+    margin-left: -7px;
+}
+.nick{
+    font-size: 13px;
+    padding: 5px 0 0 0;
+}
+.ubox{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.ubox .material-symbols-outlined{
+    font-size: 13px !important;
+    letter-spacing: -7px !important;
+}
+.sssss{
+    display: flex;
+}
+.rcbox{
+    display: flex;
+    margin: 5px 0px;
+}
+.rcbox p{
+    margin: 0 10px 0 15px;
+}
+.cosbox p{
+    color: #8c8c8c;
+    font-size: 8px;
+    margin: 3px 0;
+}
+.rbox{
+    border-bottom: 1px solid #383838;
+}
+.morere{
+    text-align: center;
+}
+.morere button{
+    font-size: 18px;
+    width: fit-content;
+    padding: 0px 90px;
+    background-color: #fff;
+    border: 1px solid #383838;
+}
